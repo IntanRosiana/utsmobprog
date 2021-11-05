@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desain_tanpa_judul_6_"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="315dp"
+        android:layout_height="49dp"
+        android:text="Hi guys! here I will make a simple application about my bio✨"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <Button
+        android:id="@+id/buttonCapture"
+        android:layout_width="275dp"
+        android:layout_height="241dp"
+        android:backgroundTint="#00000000"
+        android:backgroundTintMode="src_in"
+        android:onClick="activity_capture"
+        android:text="-"
+        app:iconTint="#4CAF50"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="298dp"
+        android:layout_height="244dp"
+        android:foregroundTintMode="src_atop"
+        app:srcCompat="@drawable/whatsapp_image_2021_11_05_at_00_23_54"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
